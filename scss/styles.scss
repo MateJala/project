@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=RocknRoll+One&family=Ropa+Sans:ital@0;1&display=swap');
+/*
+"RocknRoll One", serif;
+"Ropa  Sans", serif;
+"Roboto", serif;
+"Inter", serif;
+*/
+@import "reset";
+@import "variables";
+@import "placeholders";
+@import "mixins";
+
+body {
+    background-color: $bg-color;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: $txt-color;
+    .logo{
+        @include w-h(120px, 120px);
+    }
+    .title{
+        p{
+            padding-top: 20px;
+            font-family: "Inter" serif;
+            font-size: 48px;
+            line-height: 120%;
+            letter-spacing: 2%;
+            font-weight: bold;
+            color: $txt-color;
+        }
+    }
+    .nav{
+        padding-top: 35px;
+        @include go-flex(column, wrap, space-between);
+        @include w-h(620px, 35px);
+        div{
+            font-family: "Ropa Sans" serif;
+            font-size: 30px;
+            letter-spacing: 2%;
+            a{
+                color: $txt-color;
+            }
+            
+        }
+    }
+}
