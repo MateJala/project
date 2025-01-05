@@ -28,8 +28,7 @@ nav{
             font-family: "Inter" serif;
             font-size: 48px;
             line-height: 120%;
-            letter-spacing: 2%;
-            font-weight: bold;
+            font-weight: 700;
             color: $txt-color;
         }
     }
@@ -40,11 +39,36 @@ nav{
         div{
             font-family: "Ropa Sans" serif;
             font-size: 30px;
-            letter-spacing: 2%;
             a{
                 color: $txt-color;
             }
             
+        }
+    }
+}
+main{
+    .slogan{
+        @include w-h(100%, 215px);
+        border-bottom-style: solid;
+        border-width: 2px;
+        border-color: $txt-color;
+        div{
+            padding-top: 65px;
+            text-align: center;
+            font-family: "Inter" serif;
+            font-size: 72px;
+            line-height: 120%;
+            font-weight: 700;
+            color: $txt-color;
+        }
+        p{
+            padding-top: 18px;
+            text-align: center;
+            font-family: "Inter" serif;
+            font-size: 24px;
+            line-height: 120%;
+            font-weight: 600;
+            color: $txt-color;
         }
     }
 }
