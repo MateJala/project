@@ -138,7 +138,7 @@ main{
             }
             .text2{
                 @include w-h(87%, 519px);
-                padding-top: 50px;
+                padding-top: 35px;
                 font-family: "RocknRoll One" serif;
                 font-size: 20px;
                 font-weight: 600;
@@ -152,5 +152,128 @@ main{
                 }
             }
         }
+    }
+    .sec3{
+        height: 517px;
+        display: flex;
+        div{
+            @include go-flex(column, nowrap, baseline, center);
+            border-bottom-style: solid;
+            border-width: 2px;
+            border-color: $txt-color;
+            .title3{
+                @include w-h(100%, 127px);
+                font-family: "Inter" serif;
+                font-size: 32px;
+                font-weight: 600;
+                color: $txt-color;
+                justify-content: center;
+                border-bottom-style: solid;
+                border-width: 2px;
+                border-color: $txt-color;
+            }
+            .text3{
+                @include w-h(100%, 386px);
+                font-family: "RocknRoll One" serif;
+                font-size: 20px;
+                font-weight: 600;
+                color: $txt-color;
+                line-height: 40px;
+                text-align: justify;
+                justify-content: center;
+                width: 70%;
+                border: none;
+            }
+        }
+        .r-side{
+            @include w-h(50%, 517px);
+            img{
+                @include w-h(100%,75%);
+                display: flex;
+                border-left-style: solid;
+                border-width: 2px;
+                border-color: $txt-color;
+            }
+            div{
+                @include w-h(100%, 25%);
+                display: flex;
+                font-family: "RocknRoll One" serif;
+                font-size: 20px;
+                font-weight: 600;
+                color: $txt-color;
+                line-height: 40px;  
+                text-align: center;
+                justify-content: center;
+                border-bottom: none;
+                border-left-style: solid;
+                border-width: 2px;
+                border-color: $txt-color;
+                a{  
+                    color: $txt-color;
+                    text-decoration: underline;
+                }
+            }
+        }
+        
+    }
+}
+footer{
+    height: 262px;
+    @include go-flex(row, nowrap, space-between);
+    .social-media{
+    padding-left: 40px;
+        div{
+            display: flex;
+            align-items: center;
+            padding-top: 20px;
+            img{
+                @include w-h(45px, 45px);
+            }
+            p{ 
+                padding-left: 8px;
+                font-family: "Roboto" serif;
+                font-size: 20px;
+                font-weight: 600;
+                color: $txt-color;
+                line-height: 40px;
+                text-align: center;
+                justify-content: center;
+            }
+        }
+    }
+    .campaign{
+        .footer-title{
+            font-family: "RocknRoll One" serif;
+            font-size: 30px;
+            font-weight: 600;
+            color: $txt-color;
+            text-align: center;
+            justify-content: center;
+        }
+        .footer-txt{
+            padding-top: 20px;
+            width: 758px;
+            display: flex;
+            justify-content: space-between;
+            div{
+                width: 40%;
+                font-family: "Roboto" serif;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 40px;
+                color: $txt-color;
+                text-align: justify;
+                justify-content: center;
+            }
+        }    
+    }
+    .copyright{
+        font-family: "Roboto" serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: $txt-color;
+        text-align: right;
+        align-self: flex-end;
+        margin-top: auto;
     }
 }
