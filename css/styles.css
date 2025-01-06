@@ -603,6 +603,9 @@ main .sec2aboutus .team .textteam li {
 }
 main .sec3aboutus {
   width: 100%;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
 }
 main .sec3aboutus .title3aboutus {
   display: flex;
@@ -619,11 +622,20 @@ main .sec3aboutus .title3aboutus {
 }
 main .sec3aboutus .container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 main .sec3aboutus .container .foundations {
   width: 33.3%;
+  height: 320px;
+  border-right-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
 }
 main .sec3aboutus .container .foundations .titlefound {
+  height: 100px;
   display: flex;
   padding-bottom: 15px;
   padding-top: 15px;
@@ -639,19 +651,21 @@ main .sec3aboutus .container .foundations .titlefound {
 }
 main .sec3aboutus .container .foundations .textfound {
   display: flex;
-  width: 90%;
-  padding-left: 5%;
+  flex-direction: column;
+  width: 80%;
+  padding-left: 10%;
   padding-top: 5%;
   font-family: "RocknRoll One" serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 40px;
   color: #B9D5E6;
-  justify-content: justify;
+  text-align: justify;
   border: none;
 }
 main .sec3aboutus .container .foundations .textfound li {
   list-style-type: disc;
+  margin-left: 20px;
 }
 main .sec1services {
   display: flex;
