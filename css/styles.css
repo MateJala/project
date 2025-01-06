@@ -185,6 +185,70 @@ nav .nav div a {
   color: #B9D5E6;
 }
 
+footer {
+  height: 262px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .social-media {
+  padding-left: 40px;
+}
+footer .social-media div {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+footer .social-media div img {
+  width: 45px;
+  height: 45px;
+}
+footer .social-media div p {
+  padding-left: 8px;
+  font-family: "Roboto" serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #B9D5E6;
+  line-height: 40px;
+  text-align: center;
+  justify-content: center;
+}
+footer .campaign .footer-title {
+  font-family: "RocknRoll One" serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #B9D5E6;
+  text-align: center;
+  justify-content: center;
+}
+footer .campaign .footer-txt {
+  padding-top: 20px;
+  width: 758px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .campaign .footer-txt div {
+  width: 40%;
+  font-family: "Roboto" serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #B9D5E6;
+  text-align: justify;
+  justify-content: center;
+}
+footer .copyright {
+  font-family: "Roboto" serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #B9D5E6;
+  text-align: right;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
 main .slogan {
   width: 100%;
   height: 215px;
@@ -377,67 +441,83 @@ main .sec3 .r-side div a {
   color: #B9D5E6;
   text-decoration: underline;
 }
-
-footer {
-  height: 262px;
+main .sec1aboutus {
+  height: 400px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
 }
-footer .social-media {
-  padding-left: 40px;
+main .sec1aboutus .introuduction {
+  border-right-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+  width: 47%;
+  height: 100%;
 }
-footer .social-media div {
+main .sec1aboutus .introuduction .titleintro {
   display: flex;
-  align-items: center;
-  padding-top: 20px;
-}
-footer .social-media div img {
-  width: 45px;
-  height: 45px;
-}
-footer .social-media div p {
-  padding-left: 8px;
-  font-family: "Roboto" serif;
-  font-size: 20px;
-  font-weight: 600;
-  color: #B9D5E6;
-  line-height: 40px;
-  text-align: center;
-  justify-content: center;
-}
-footer .campaign .footer-title {
+  padding-bottom: 30px;
+  height: 25%;
+  padding-left: 5%;
   font-family: "RocknRoll One" serif;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   color: #B9D5E6;
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+  align-items: flex-end;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
 }
-footer .campaign .footer-txt {
-  padding-top: 20px;
-  width: 758px;
+main .sec1aboutus .introuduction .textintro {
   display: flex;
-  justify-content: space-between;
-}
-footer .campaign .footer-txt div {
-  width: 40%;
-  font-family: "Roboto" serif;
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 5%;
+  font-family: "RocknRoll One" serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 40px;
   color: #B9D5E6;
-  text-align: justify;
-  justify-content: center;
+  justify-content: justify;
+  border: none;
 }
-footer .copyright {
-  font-family: "Roboto" serif;
-  font-size: 20px;
+main .sec1aboutus .introuduction .textintro li {
+  list-style-type: disc;
+}
+main .sec1aboutus .goals {
+  width: 53%;
+  height: 100%;
+}
+main .sec1aboutus .goals .titlegoal {
+  display: flex;
+  padding-bottom: 30px;
+  height: 25%;
+  padding-left: 5%;
+  font-family: "RocknRoll One" serif;
+  font-size: 24px;
   font-weight: 600;
   color: #B9D5E6;
-  text-align: right;
-  align-self: flex-end;
-  margin-top: auto;
+  text-align: left;
+  align-items: flex-end;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+}
+main .sec1aboutus .goals .textgoal {
+  display: flex;
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 5%;
+  font-family: "RocknRoll One" serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #B9D5E6;
+  justify-content: justify;
+  border: none;
+}
+main .sec1aboutus .goals .textgoal li {
+  list-style-type: disc;
 }/*# sourceMappingURL=styles.css.map */
