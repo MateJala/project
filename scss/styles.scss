@@ -487,5 +487,48 @@ main{
             }
         }
     }
+
+    .sec1services{
+        display: flex;
+        border-bottom-style: solid;
+        border-width: 2px;
+        border-color: $txt-color;
+        .serv{
+            @include w-h(50%, 540px);
+            display: flex;
+            flex-direction: column;
+            .titleserv{
+                height: 20%;
+                display: flex;
+                font-family: "RocknRoll One" serif;
+                font-size: 24px;
+                font-weight: 600;
+                color: $txt-color;
+                justify-content: center;
+                align-items: center;
+                border-bottom-style: solid;
+                border-width: 2px;
+                border-color: $txt-color;
+            }
+            .textserv{
+                display: flex;
+                width: 90%;
+                padding-left: 15%;
+                height: 80%;
+                font-family: "RocknRoll One" serif;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 40px;
+                color: $txt-color;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                li{
+                    list-style-type: disc;
+                }
+            }
+        }
+    }
+
 }
 

@@ -652,4 +652,46 @@ main .sec3aboutus .container .foundations .textfound {
 }
 main .sec3aboutus .container .foundations .textfound li {
   list-style-type: disc;
+}
+main .sec1services {
+  display: flex;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+}
+main .sec1services .serv {
+  width: 50%;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+}
+main .sec1services .serv .titleserv {
+  height: 20%;
+  display: flex;
+  font-family: "RocknRoll One" serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #B9D5E6;
+  justify-content: center;
+  align-items: center;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+}
+main .sec1services .serv .textserv {
+  display: flex;
+  width: 90%;
+  padding-left: 15%;
+  height: 80%;
+  font-family: "RocknRoll One" serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #B9D5E6;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+main .sec1services .serv .textserv li {
+  list-style-type: disc;
 }/*# sourceMappingURL=styles.css.map */
