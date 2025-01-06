@@ -520,4 +520,84 @@ main .sec1aboutus .goals .textgoal {
 }
 main .sec1aboutus .goals .textgoal li {
   list-style-type: disc;
+}
+main .sec2aboutus {
+  height: 320px;
+  display: flex;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+}
+main .sec2aboutus .values {
+  border-right-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+  width: 61%;
+  height: 100%;
+}
+main .sec2aboutus .values .titlevalue {
+  display: flex;
+  padding-bottom: 30px;
+  height: 22%;
+  padding-left: 5%;
+  font-family: "RocknRoll One" serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #B9D5E6;
+  text-align: left;
+  align-items: flex-end;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+}
+main .sec2aboutus .values .textvalue {
+  display: flex;
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 5%;
+  font-family: "RocknRoll One" serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #B9D5E6;
+  justify-content: justify;
+  border: none;
+}
+main .sec2aboutus .values .textvalue li {
+  list-style-type: disc;
+}
+main .sec2aboutus .team {
+  width: 39%;
+  height: 100%;
+}
+main .sec2aboutus .team .titleteam {
+  display: flex;
+  padding-bottom: 30px;
+  height: 22%;
+  padding-left: 5%;
+  font-family: "RocknRoll One" serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #B9D5E6;
+  text-align: left;
+  align-items: flex-end;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+}
+main .sec2aboutus .team .textteam {
+  display: flex;
+  width: 74%;
+  padding-left: 5%;
+  padding-top: 5%;
+  font-family: "RocknRoll One" serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #B9D5E6;
+  justify-content: justify;
+  border: none;
+}
+main .sec2aboutus .team .textteam li {
+  list-style-type: disc;
 }/*# sourceMappingURL=styles.css.map */
