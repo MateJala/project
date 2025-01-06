@@ -600,4 +600,56 @@ main .sec2aboutus .team .textteam {
 }
 main .sec2aboutus .team .textteam li {
   list-style-type: disc;
+}
+main .sec3aboutus {
+  width: 100%;
+}
+main .sec3aboutus .title3aboutus {
+  display: flex;
+  height: 125px;
+  font-family: "Inter" serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #B9D5E6;
+  justify-content: center;
+  align-items: center;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+}
+main .sec3aboutus .container {
+  display: flex;
+}
+main .sec3aboutus .container .foundations {
+  width: 33.3%;
+}
+main .sec3aboutus .container .foundations .titlefound {
+  display: flex;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-family: "RocknRoll One" serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #B9D5E6;
+  justify-content: center;
+  align-items: center;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+}
+main .sec3aboutus .container .foundations .textfound {
+  display: flex;
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 5%;
+  font-family: "RocknRoll One" serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #B9D5E6;
+  justify-content: justify;
+  border: none;
+}
+main .sec3aboutus .container .foundations .textfound li {
+  list-style-type: disc;
 }/*# sourceMappingURL=styles.css.map */
