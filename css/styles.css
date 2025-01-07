@@ -958,4 +958,36 @@ main .sec1contact .contact .txtbellow {
 }
 main .sec1contact .contact .txtbellow .emailcolor {
   color: #9026CD;
+}
+main .sec2contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+}
+main .sec2contact .faqtitle {
+  height: 100px;
+  display: flex;
+  font-family: "RocknRoll One" serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #B9D5E6;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+main .sec2contact .faqtxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "RocknRoll One" serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #B9D5E6;
+  padding-bottom: 30px;
 }/*# sourceMappingURL=styles.css.map */
