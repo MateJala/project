@@ -833,4 +833,63 @@ main .secnews .newsbox .subtxt {
 }
 main .secnews .newsbox .subtxt li {
   list-style-type: disc;
+}
+main .sec2news {
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+}
+main .sec2news .titlenews {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter" serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #B9D5E6;
+}
+main .sec2news .events {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+main .sec2news .events .boxofnews {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  background-color: #D9D9D9;
+  border-radius: 20%;
+  height: 500px;
+}
+main .sec2news .events .boxofnews .titleofnews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "RocknRoll One" serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #759966;
+}
+main .sec2news .events .boxofnews .txtofnews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "RocknRoll One" serif;
+  font-size: 20px;
+  font-weight: 600;
+  width: 80%;
+  padding-left: 12.5%;
+  line-height: 40px;
+  color: #759966;
+}
+main .sec2news .events .boxofnews .txtofnews li {
+  list-style-type: disc;
 }/*# sourceMappingURL=styles.css.map */

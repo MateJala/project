@@ -658,5 +658,57 @@ main{
             }
         }
     }
+    .sec2news{
+        border-bottom-style: solid;
+        border-width: 2px;
+        border-color: $txt-color;
+        .titlenews{
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Inter" serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: $txt-color;
+        }
+        .events{
+            @include go-flex();
+            justify-content: space-around;
+            padding-bottom: 40px;
+            .boxofnews{
+                @include go-flex(column, nowrap, space-around);
+                width: 25%;
+                background-color: #D9D9D9;
+                border-radius: 20%;
+                height: 500px;
+                .titleofnews{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: "RocknRoll One" serif;
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: $bg-color;
+                }
+                .txtofnews{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: "RocknRoll One" serif;
+                    font-size: 20px;
+                    font-weight: 600;
+                    width: 80%;
+                    padding-left: 12.5%;
+                    line-height: 40px;
+                    color: $bg-color;
+                    li{
+                        list-style-type: disc;
+                    }
+                }
+            }
+        }
+    }
+    
 }
 
