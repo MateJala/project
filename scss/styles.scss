@@ -595,7 +595,7 @@ main{
         }
     }
 
-    .bigtitle1{
+    .bigtitle{
         @include w-h(100%, 125px);
         display: flex;
         border-bottom-style: solid;
@@ -608,7 +608,7 @@ main{
         font-weight: 700;
         color: $txt-color;
     }
-    .sec1news{
+    .secnews{
         @include go-flex();
         border-bottom-style: solid;
         border-width: 2px;
