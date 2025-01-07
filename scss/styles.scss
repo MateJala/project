@@ -709,6 +709,69 @@ main{
             }
         }
     }
-    
-}
 
+    .sec1contact{
+        .contact{
+            @include go-flex(column);
+            border-bottom-style: solid;
+            border-width: 2px;
+            border-color: $txt-color;
+            padding: 50px;
+            .subtitlecontact{
+                padding-top: 30px;
+                padding-bottom: 30px;
+                display: flex;
+                font-family: "RocknRoll One" serif;
+                font-size: 48px;
+                font-weight: 600;
+                color: $txt-color;
+                text-align: center;    
+            }   
+            .box1{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                display: flex;
+                width: 1000px;
+                height: 50px;
+                box-sizing: border-box;
+                border: 2px solid #D4D3D34D;
+                background-color: #e9dbdb;
+                resize: none;
+            }
+            .box2{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                display: flex;
+                width: 1000px;
+                height: 200px;
+                box-sizing: border-box;
+                border: 2px solid #D4D3D34D;
+                background-color: #e9dbdb;
+                resize: none;
+            }
+            .sumbit1{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                display: flex;
+                width: 1000px;
+                height: 50px;
+                box-sizing: border-box;
+                border: 2px solid #D4D3D34D;
+                background-color: #e9dbdb;
+                resize: none;
+            }
+            .txtbellow{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: "RocknRoll One" serif;
+                font-size: 24px;
+                font-weight: 600;
+                color: $txt-color;
+                .emailcolor{
+                    color: #9026CD;
+                }
+            }
+        }
+    }
+}

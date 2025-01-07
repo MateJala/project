@@ -892,4 +892,70 @@ main .sec2news .events .boxofnews .txtofnews {
 }
 main .sec2news .events .boxofnews .txtofnews li {
   list-style-type: disc;
+}
+main .sec1contact .contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+  padding: 50px;
+}
+main .sec1contact .contact .subtitlecontact {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  font-family: "RocknRoll One" serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #B9D5E6;
+  text-align: center;
+}
+main .sec1contact .contact .box1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  width: 1000px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid rgba(212, 211, 211, 0.3019607843);
+  background-color: #e9dbdb;
+  resize: none;
+}
+main .sec1contact .contact .box2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  width: 1000px;
+  height: 200px;
+  box-sizing: border-box;
+  border: 2px solid rgba(212, 211, 211, 0.3019607843);
+  background-color: #e9dbdb;
+  resize: none;
+}
+main .sec1contact .contact .sumbit1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  width: 1000px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid rgba(212, 211, 211, 0.3019607843);
+  background-color: #e9dbdb;
+  resize: none;
+}
+main .sec1contact .contact .txtbellow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "RocknRoll One" serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #B9D5E6;
+}
+main .sec1contact .contact .txtbellow .emailcolor {
+  color: #9026CD;
 }/*# sourceMappingURL=styles.css.map */
