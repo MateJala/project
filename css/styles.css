@@ -765,4 +765,72 @@ main .sec2services .subscribe .sumbit {
   border: 2px solid rgba(212, 211, 211, 0.3019607843);
   background-color: #e9dbdb;
   resize: none;
+}
+main .bigtitle1 {
+  width: 100%;
+  height: 125px;
+  display: flex;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter" serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: #B9D5E6;
+}
+main .sec1news {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+}
+main .sec1news .newsbox {
+  width: 50%;
+  border-right-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+  height: 750px;
+}
+main .sec1news .newsbox .header {
+  height: 100px;
+  display: flex;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #B9D5E6;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter" serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #B9D5E6;
+}
+main .sec1news .newsbox .subtitle {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  font-family: "RocknRoll One" serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #B9D5E6;
+}
+main .sec1news .newsbox .subtxt {
+  display: flex;
+  width: 80%;
+  padding-left: 12.5%;
+  font-family: "RocknRoll One" serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #B9D5E6;
+  justify-content: justify;
+}
+main .sec1news .newsbox .subtxt li {
+  list-style-type: disc;
 }/*# sourceMappingURL=styles.css.map */
