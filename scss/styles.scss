@@ -1166,6 +1166,9 @@ main{
             border-width: 2px;
             border-color: $txt-color;
             padding: 50px;
+            @media (max-width: 800px) {
+                padding: 10px;
+            }
             .subtitlecontact{
                 padding-top: 30px;
                 padding-bottom: 30px;
@@ -1179,7 +1182,8 @@ main{
                 transition-timing-function: ease;
                 &:hover{
                     font-size: 56px
-                }    
+                }
+                
             }   
             .box1{
                 margin-top: 30px;
@@ -1191,6 +1195,12 @@ main{
                 border: 2px solid #D4D3D34D;
                 background-color: #e9dbdb;
                 resize: none;
+                @media (max-width: 1200px) {
+                    width: 700px;
+                }
+                @media (max-width: 800px) {
+                    width: 400px;
+                }
             }
             .box2{
                 margin-top: 30px;
@@ -1202,6 +1212,12 @@ main{
                 border: 2px solid #D4D3D34D;
                 background-color: #e9dbdb;
                 resize: none;
+                @media (max-width: 1200px) {
+                    width: 700px;
+                }
+                @media (max-width: 800px) {
+                    width: 400px;
+                }
             }
             .sumbit1{
                 margin-top: 30px;
@@ -1217,10 +1233,17 @@ main{
                 &:hover{
                     border: 2px solid black;
                 }
+                @media (max-width: 1200px) {
+                    width: 700px;
+                }
+                @media (max-width: 800px) {
+                    width: 400px;
+                }
             }
             .txtbellow{
                 display: flex;
                 justify-content: center;
+                width: 80%;
                 align-items: center;
                 font-family: "RocknRoll One" serif;
                 font-size: 24px;
@@ -1263,6 +1286,13 @@ main{
             line-height: 40px;
             color: $txt-color;
             padding-bottom: 30px;
+            @media (max-width: 10000px) {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            @media (max-width: 550px) {
+                font-weight: 400;
+            }
         }
     }
 }

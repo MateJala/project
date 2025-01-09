@@ -1521,6 +1521,11 @@ main .sec1contact .contact {
   border-color: #B9D5E6;
   padding: 50px;
 }
+@media (max-width: 800px) {
+  main .sec1contact .contact {
+    padding: 10px;
+  }
+}
 main .sec1contact .contact .subtitlecontact {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1547,6 +1552,16 @@ main .sec1contact .contact .box1 {
   background-color: #e9dbdb;
   resize: none;
 }
+@media (max-width: 1200px) {
+  main .sec1contact .contact .box1 {
+    width: 700px;
+  }
+}
+@media (max-width: 800px) {
+  main .sec1contact .contact .box1 {
+    width: 400px;
+  }
+}
 main .sec1contact .contact .box2 {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1557,6 +1572,16 @@ main .sec1contact .contact .box2 {
   border: 2px solid rgba(212, 211, 211, 0.3019607843);
   background-color: #e9dbdb;
   resize: none;
+}
+@media (max-width: 1200px) {
+  main .sec1contact .contact .box2 {
+    width: 700px;
+  }
+}
+@media (max-width: 800px) {
+  main .sec1contact .contact .box2 {
+    width: 400px;
+  }
 }
 main .sec1contact .contact .sumbit1 {
   margin-top: 30px;
@@ -1573,9 +1598,20 @@ main .sec1contact .contact .sumbit1 {
 main .sec1contact .contact .sumbit1:hover {
   border: 2px solid black;
 }
+@media (max-width: 1200px) {
+  main .sec1contact .contact .sumbit1 {
+    width: 700px;
+  }
+}
+@media (max-width: 800px) {
+  main .sec1contact .contact .sumbit1 {
+    width: 400px;
+  }
+}
 main .sec1contact .contact .txtbellow {
   display: flex;
   justify-content: center;
+  width: 80%;
   align-items: center;
   font-family: "RocknRoll One" serif;
   font-size: 24px;
@@ -1621,4 +1657,15 @@ main .sec2contact .faqtxt {
   line-height: 40px;
   color: #B9D5E6;
   padding-bottom: 30px;
+}
+@media (max-width: 10000px) {
+  main .sec2contact .faqtxt {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 550px) {
+  main .sec2contact .faqtxt {
+    font-weight: 400;
+  }
 }/*# sourceMappingURL=styles.css.map */
