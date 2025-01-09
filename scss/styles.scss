@@ -21,10 +21,15 @@ nav{
     border-color: $txt-color;
     img{
         @include w-h(120px, 120px);
+        @media (max-width: 1200px){
+            @include w-h(80px, 80px);
+        }
     }
     .title{
-        p{
-            padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{  
             font-family: "Inter" serif;
             font-size: 48px;
             line-height: 120%;
@@ -35,12 +40,36 @@ nav{
             &:hover{
                 font-size: 68px
             }
+
+            @media (max-width: 1200px){
+                font-size: 30px;
+                &:hover{
+                    font-size: 42px
+                }
+            }
+            @media (max-width: 850px){
+                font-size: 24px;
+                &:hover{
+                    font-size: 30px
+                }
+            }
         }
     }
     .nav{
-        padding-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
         @include go-flex(column, wrap, space-between);
         @include w-h(620px, 35px);
+        @media (max-width: 990px){
+            width: 480px;
+        }
+        @media (max-width: 850px){
+            width: 400px;
+        }
+        @media (max-width: 768px){
+            width: 0;
+        }
         div{
             font-family: "Ropa Sans" serif;
             font-size: 30px;
@@ -52,21 +81,72 @@ nav{
             a{
                 color: $txt-color;
             }
-            
+            @media (max-width: 1200px){
+                font-size: 20px;
+                &:hover{
+                    font-size: 30px
+                }
+            }
+            @media (max-width: 768px){
+                display: none;
+            }
+        }
+    }
+    .burger-icon {
+        @include go-flex(column, nowrap, space-between, center);
+        display: none;
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        cursor: pointer;
+        span {
+          display: block;
+          width: 100%;
+          height: 5px;
+          background-color: $txt-color;
+          border-radius: 5px;
+        }
+        @media (max-width: 768px){
+            display: flex;
+            justify-content: space-around;
+            align-self: center;
         }
     }
 }
 footer{
     height: 262px;
     @include go-flex(row, nowrap, space-between);
+    @media (max-width: 960px) {
+        height: auto;
+        flex-direction: column;
+    }
+    @media (max-width: 800px) {
+        flex-direction: row;
+    }
     .social-media{
-    padding-left: 40px;
+        padding-left: 40px;
+        @media (max-width: 960px) {
+            @include go-flex(row);
+        }
         div{
             display: flex;
             align-items: center;
             padding-top: 20px;
+            @media (max-width: 800px) {
+                i{
+                    padding-left: 30px;
+                    padding-bottom: 30px;
+                    cursor: pointer;
+                }
+            }
+            @media (max-width: 550px) {
+                i{
+                    padding-left: 10px;
+                }
+            }
             p{ 
                 padding-left: 8px;
+                padding-right: 16px;
                 font-family: "Roboto" serif;
                 font-size: 20px;
                 font-weight: 600;
@@ -74,10 +154,19 @@ footer{
                 line-height: 40px;
                 text-align: center;
                 justify-content: center;
+                @media (max-width: 1230px){
+                    font-weight: 400;
+                }
+                @media (max-width: 800px) {
+                    display: none;
+                }
             }
         }
     }
     .campaign{
+        @media (max-width: 960px) {
+            display: none;
+        }
         .footer-title{
             font-family: "RocknRoll One" serif;
             font-size: 30px;
@@ -96,6 +185,10 @@ footer{
             width: 758px;
             display: flex;
             justify-content: space-between;
+            @media (max-width: 1230px){
+                flex-direction: column;
+                width: 500px;
+            }
             div{
                 width: 40%;
                 font-family: "Roboto" serif;
@@ -105,6 +198,10 @@ footer{
                 color: $txt-color;
                 text-align: justify;
                 justify-content: center;
+                @media (max-width: 1230px){
+                    width: 100%;
+                    font-weight: 400;
+                }
             }
         }    
     }
@@ -116,6 +213,11 @@ footer{
         text-align: right;
         align-self: flex-end;
         margin-top: auto;
+        @media (max-width: 1230px){
+            font-weight: 400;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
     }
 }
 main{
@@ -132,6 +234,13 @@ main{
             line-height: 120%;
             font-weight: 700;
             color: $txt-color;
+            @media (max-width: 1110px) {
+                font-size: 56px;
+            }
+            @media (max-width: 850px) {
+                padding-top: 0;
+                font-weight: 600;
+            }
         }
         p{
             padding-top: 18px;
@@ -146,11 +255,21 @@ main{
             &:hover{
                 font-size: 30px
             }
+            @media (max-width: 1110px) {
+                font-size: 20px;
+                &:hover{
+                    font-size: 24px;
+                }
+            }
         }
     }
     .sec1{
         height: 480px;
         display: flex;
+        @media (max-width: 1000px) {
+            flex-direction: column;
+            height: auto;
+        }
         div{
             @include go-flex(column, nowrap, baseline, center);
             border-bottom-style: solid;
@@ -163,6 +282,7 @@ main{
                 font-weight: 600;
                 color: $txt-color;
                 justify-content: center;
+                text-align: center;
                 border-bottom-style: solid;
                 border-width: 2px;
                 border-color: $txt-color;
@@ -183,6 +303,10 @@ main{
                 justify-content: center;
                 width: 93%;
                 border: none;
+                @media (max-width: 550px) {
+                    font-weight: 400;
+                    height: 400px;
+                }
             }
         }
         img{
@@ -191,17 +315,32 @@ main{
             border-left-style: solid;
             border-width: 2px;
             border-color: $txt-color;
+            @media (max-width: 1000px) {
+                width: 100%;
+                border-left-style: none;
+            }
         }
     }
     .sec2{
         height: 600px;
         display: flex;
+        @media (max-width: 1240px) {
+            height: 800px;
+        }
+        @media (max-width: 1000px) {
+            flex-direction: column-reverse;
+            height: auto;
+        }
         img{
             @include w-h(49.6%, 100%);
             border-bottom-style: solid;
             border-right-style: solid;
             border-width: 2px;
             border-color: $txt-color;
+            @media (max-width: 1000px) {
+                width: 100%;
+                border-right-style: none;
+            }
         }
         div{
             @include go-flex(column, nowrap, baseline, center);
@@ -237,12 +376,24 @@ main{
                 li{
                 list-style-type: decimal;
                 }
+                @media (max-width: 650px) {
+                    height: auto;
+                }
+                @media (max-width: 550px) {
+                    font-weight: 400;
+                }
             }
         }
     }
     .sec3{
         height: 517px;
         display: flex;
+        @media (max-width: 1000px) {
+            height: auto;
+        }
+        @media (max-width: 770px) {
+            flex-direction: column;
+        }
         div{
             @include go-flex(column, nowrap, baseline, center);
             border-bottom-style: solid;
@@ -263,6 +414,12 @@ main{
                 &:hover{
                     font-size: 40px
                 }
+                @media (max-width: 1000px) {
+                    font-size: 24px;
+                    &:hover{
+                        font-size: 32px;
+                    }
+                }
             }
             .text3{
                 @include w-h(100%, 386px);
@@ -275,16 +432,36 @@ main{
                 justify-content: center;
                 width: 70%;
                 border: none;
+                @media (max-width: 550px) {
+                    font-weight: 400;
+                }
+                @media (max-width: 1000px) {
+                    height: auto;;
+                }
+            }
+            @media (max-width: 1000px) {
+                width: 60%;
+                height: auto;
+            }
+            @media (max-width: 770px) {
+                width: 100%;
             }
         }
         .r-side{
             @include w-h(50%, 517px);
+            @media (max-width: 770px) {
+                flex-direction: row;
+                width: 100%;
+            }
             img{
                 @include w-h(100%,75%);
                 display: flex;
                 border-left-style: solid;
                 border-width: 2px;
                 border-color: $txt-color;
+                @media (max-width: 770px) {
+                    border: none;
+                }
             }
             div{
                 @include w-h(100%, 25%);
@@ -303,6 +480,12 @@ main{
                 a{  
                     color: $txt-color;
                     text-decoration: underline;
+                }
+                @media (max-width: 770px) {
+                    border: none;
+                }
+                @media (max-width: 550px) {
+                    font-weight: 400;
                 }
             }
         }

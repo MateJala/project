@@ -159,8 +159,18 @@ nav img {
   width: 120px;
   height: 120px;
 }
+@media (max-width: 1200px) {
+  nav img {
+    width: 80px;
+    height: 80px;
+  }
+}
+nav .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 nav .title p {
-  padding-top: 20px;
   font-family: "Inter" serif;
   font-size: 48px;
   line-height: 120%;
@@ -172,8 +182,26 @@ nav .title p {
 nav .title p:hover {
   font-size: 68px;
 }
+@media (max-width: 1200px) {
+  nav .title p {
+    font-size: 30px;
+  }
+  nav .title p:hover {
+    font-size: 42px;
+  }
+}
+@media (max-width: 850px) {
+  nav .title p {
+    font-size: 24px;
+  }
+  nav .title p:hover {
+    font-size: 30px;
+  }
+}
 nav .nav {
-  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -181,6 +209,21 @@ nav .nav {
   align-items: center;
   width: 620px;
   height: 35px;
+}
+@media (max-width: 990px) {
+  nav .nav {
+    width: 480px;
+  }
+}
+@media (max-width: 850px) {
+  nav .nav {
+    width: 400px;
+  }
+}
+@media (max-width: 768px) {
+  nav .nav {
+    width: 0;
+  }
 }
 nav .nav div {
   font-family: "Ropa Sans" serif;
@@ -194,6 +237,45 @@ nav .nav div:hover {
 nav .nav div a {
   color: #B9D5E6;
 }
+@media (max-width: 1200px) {
+  nav .nav div {
+    font-size: 20px;
+  }
+  nav .nav div:hover {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  nav .nav div {
+    display: none;
+  }
+}
+nav .burger-icon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  cursor: pointer;
+}
+nav .burger-icon span {
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #B9D5E6;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  nav .burger-icon {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+  }
+}
 
 footer {
   height: 262px;
@@ -203,16 +285,49 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 960px) {
+  footer {
+    height: auto;
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  footer {
+    flex-direction: row;
+  }
+}
 footer .social-media {
   padding-left: 40px;
+}
+@media (max-width: 960px) {
+  footer .social-media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 footer .social-media div {
   display: flex;
   align-items: center;
   padding-top: 20px;
 }
+@media (max-width: 800px) {
+  footer .social-media div i {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 550px) {
+  footer .social-media div i {
+    padding-left: 10px;
+  }
+}
 footer .social-media div p {
   padding-left: 8px;
+  padding-right: 16px;
   font-family: "Roboto" serif;
   font-size: 20px;
   font-weight: 600;
@@ -220,6 +335,21 @@ footer .social-media div p {
   line-height: 40px;
   text-align: center;
   justify-content: center;
+}
+@media (max-width: 1230px) {
+  footer .social-media div p {
+    font-weight: 400;
+  }
+}
+@media (max-width: 800px) {
+  footer .social-media div p {
+    display: none;
+  }
+}
+@media (max-width: 960px) {
+  footer .campaign {
+    display: none;
+  }
 }
 footer .campaign .footer-title {
   font-family: "RocknRoll One" serif;
@@ -240,6 +370,12 @@ footer .campaign .footer-txt {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 1230px) {
+  footer .campaign .footer-txt {
+    flex-direction: column;
+    width: 500px;
+  }
+}
 footer .campaign .footer-txt div {
   width: 40%;
   font-family: "Roboto" serif;
@@ -250,6 +386,12 @@ footer .campaign .footer-txt div {
   text-align: justify;
   justify-content: center;
 }
+@media (max-width: 1230px) {
+  footer .campaign .footer-txt div {
+    width: 100%;
+    font-weight: 400;
+  }
+}
 footer .copyright {
   font-family: "Roboto" serif;
   font-size: 20px;
@@ -258,6 +400,13 @@ footer .copyright {
   text-align: right;
   align-self: flex-end;
   margin-top: auto;
+}
+@media (max-width: 1230px) {
+  footer .copyright {
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 main .slogan {
@@ -276,6 +425,17 @@ main .slogan div {
   font-weight: 700;
   color: #B9D5E6;
 }
+@media (max-width: 1110px) {
+  main .slogan div {
+    font-size: 56px;
+  }
+}
+@media (max-width: 850px) {
+  main .slogan div {
+    padding-top: 0;
+    font-weight: 600;
+  }
+}
 main .slogan p {
   padding-top: 18px;
   text-align: center;
@@ -290,9 +450,23 @@ main .slogan p {
 main .slogan p:hover {
   font-size: 30px;
 }
+@media (max-width: 1110px) {
+  main .slogan p {
+    font-size: 20px;
+  }
+  main .slogan p:hover {
+    font-size: 24px;
+  }
+}
 main .sec1 {
   height: 480px;
   display: flex;
+}
+@media (max-width: 1000px) {
+  main .sec1 {
+    flex-direction: column;
+    height: auto;
+  }
 }
 main .sec1 div {
   display: flex;
@@ -312,6 +486,7 @@ main .sec1 div .title1 {
   font-weight: 600;
   color: #B9D5E6;
   justify-content: center;
+  text-align: center;
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
@@ -334,6 +509,12 @@ main .sec1 div .text1 {
   width: 93%;
   border: none;
 }
+@media (max-width: 550px) {
+  main .sec1 div .text1 {
+    font-weight: 400;
+    height: 400px;
+  }
+}
 main .sec1 img {
   width: 54%;
   height: 100%;
@@ -342,9 +523,26 @@ main .sec1 img {
   border-width: 2px;
   border-color: #B9D5E6;
 }
+@media (max-width: 1000px) {
+  main .sec1 img {
+    width: 100%;
+    border-left-style: none;
+  }
+}
 main .sec2 {
   height: 600px;
   display: flex;
+}
+@media (max-width: 1240px) {
+  main .sec2 {
+    height: 800px;
+  }
+}
+@media (max-width: 1000px) {
+  main .sec2 {
+    flex-direction: column-reverse;
+    height: auto;
+  }
 }
 main .sec2 img {
   width: 49.6%;
@@ -353,6 +551,12 @@ main .sec2 img {
   border-right-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
+}
+@media (max-width: 1000px) {
+  main .sec2 img {
+    width: 100%;
+    border-right-style: none;
+  }
 }
 main .sec2 div {
   display: flex;
@@ -396,9 +600,29 @@ main .sec2 div .text2 {
 main .sec2 div .text2 li {
   list-style-type: decimal;
 }
+@media (max-width: 650px) {
+  main .sec2 div .text2 {
+    height: auto;
+  }
+}
+@media (max-width: 550px) {
+  main .sec2 div .text2 {
+    font-weight: 400;
+  }
+}
 main .sec3 {
   height: 517px;
   display: flex;
+}
+@media (max-width: 1000px) {
+  main .sec3 {
+    height: auto;
+  }
+}
+@media (max-width: 770px) {
+  main .sec3 {
+    flex-direction: column;
+  }
 }
 main .sec3 div {
   display: flex;
@@ -427,6 +651,14 @@ main .sec3 div .title3 {
 main .sec3 div .title3:hover {
   font-size: 40px;
 }
+@media (max-width: 1000px) {
+  main .sec3 div .title3 {
+    font-size: 24px;
+  }
+  main .sec3 div .title3:hover {
+    font-size: 32px;
+  }
+}
 main .sec3 div .text3 {
   width: 100%;
   height: 386px;
@@ -440,9 +672,36 @@ main .sec3 div .text3 {
   width: 70%;
   border: none;
 }
+@media (max-width: 550px) {
+  main .sec3 div .text3 {
+    font-weight: 400;
+  }
+}
+@media (max-width: 1000px) {
+  main .sec3 div .text3 {
+    height: auto;
+  }
+}
+@media (max-width: 1000px) {
+  main .sec3 div {
+    width: 60%;
+    height: auto;
+  }
+}
+@media (max-width: 770px) {
+  main .sec3 div {
+    width: 100%;
+  }
+}
 main .sec3 .r-side {
   width: 50%;
   height: 517px;
+}
+@media (max-width: 770px) {
+  main .sec3 .r-side {
+    flex-direction: row;
+    width: 100%;
+  }
 }
 main .sec3 .r-side img {
   width: 100%;
@@ -451,6 +710,11 @@ main .sec3 .r-side img {
   border-left-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
+}
+@media (max-width: 770px) {
+  main .sec3 .r-side img {
+    border: none;
+  }
 }
 main .sec3 .r-side div {
   width: 100%;
@@ -471,6 +735,16 @@ main .sec3 .r-side div {
 main .sec3 .r-side div a {
   color: #B9D5E6;
   text-decoration: underline;
+}
+@media (max-width: 770px) {
+  main .sec3 .r-side div {
+    border: none;
+  }
+}
+@media (max-width: 550px) {
+  main .sec3 .r-side div {
+    font-weight: 400;
+  }
 }
 main .sec1aboutus {
   height: 400px;
