@@ -498,11 +498,21 @@ main{
         border-bottom-style: solid;
         border-width: 2px;
         border-color: $txt-color;
+        @media (max-width: 1130px) {
+            height: auto;
+            flex-direction: column;
+        }
         .introuduction{
             border-right-style: solid;
             border-width: 2px;
             border-color: $txt-color;
             @include w-h(47%, 100%);
+            @media (max-width: 1130px) {
+                height: auto;
+                width: 100%;
+                border-right-style: none;
+                border-bottom-style: solid;
+            }
             .titleintro{
                 display: flex;
                 padding-bottom: 30px;
@@ -522,6 +532,10 @@ main{
                 &:hover{
                     font-size: 30px
                 }
+                @media (max-width: 1130px) {
+                    justify-content: center;
+                    padding: 30px;
+                }
             }
             .textintro{
                 display: flex;
@@ -537,11 +551,22 @@ main{
                 border: none;
                 li{
                     list-style-type: disc;
-                }   
+                }
+                @media (max-width: 1130px) {
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+                @media (max-width: 550px) {
+                    font-weight: 400;
+                }
             }
         }
         .goals{
             @include w-h(53%, 100%);
+            @media (max-width: 1130px) {
+                height: auto;
+                width: 100%;
+            }
             .titlegoal{
                 display: flex;
                 padding-bottom: 30px;
@@ -561,6 +586,10 @@ main{
                 &:hover{
                     font-size: 30px
                 }
+                @media (max-width: 1130px) {
+                    justify-content: center;
+                    padding: 30px;
+                }
             }
             .textgoal{
                 display: flex;
@@ -576,7 +605,14 @@ main{
                 border: none;
                 li{
                     list-style-type: disc;
-                }   
+                }
+                @media (max-width: 1130px) {
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+                @media (max-width: 550px) {
+                    font-weight: 400;
+                }
             }
         }
     }
@@ -587,11 +623,21 @@ main{
         border-bottom-style: solid;
         border-width: 2px;
         border-color: $txt-color;
+        @media (max-width: 1130px) {
+            height: auto;
+            flex-direction: column;
+        }
         .values{
             border-right-style: solid;
             border-width: 2px;
             border-color: $txt-color;
             @include w-h(61%, 100%);
+            @media (max-width: 1130px) {
+                height: auto;
+                width: 100%;
+                border-right-style: none;
+                border-bottom-style: solid;
+            }
             .titlevalue{
                 display: flex;
                 padding-bottom: 30px;
@@ -611,6 +657,10 @@ main{
                 &:hover{
                     font-size: 30px
                 }
+                @media (max-width: 1130px) {
+                    justify-content: center;
+                    padding: 30px;
+                }
             }
             .textvalue{
                 display: flex;
@@ -626,11 +676,24 @@ main{
                 border: none;
                 li{
                     list-style-type: disc;
-                }   
+                } 
+                @media (max-width: 1130px) {
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+                @media (max-width: 550px) {
+                    font-weight: 400;
+                }
             }
         }
         .team{
             @include w-h(39%, 100%);
+            @media (max-width: 1130px) {
+                height: auto;
+                width: 100%;
+                border-right-style: none;
+                border-bottom-style: solid;
+            }
             .titleteam{
                 display: flex;
                 padding-bottom: 30px;
@@ -650,6 +713,10 @@ main{
                 &:hover{
                     font-size: 30px
                 }
+                @media (max-width: 1130px) {
+                    justify-content: center;
+                    padding: 30px;
+                }
             }
             .textteam{
                 display: flex;
@@ -665,7 +732,14 @@ main{
                 border: none;
                 li{
                     list-style-type: disc;
-                }   
+                }
+                @media (max-width: 1130px) {
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+                @media (max-width: 550px) {
+                    font-weight: 400;
+                }
             }
         }
     }
@@ -696,10 +770,15 @@ main{
         .container{
             @include go-flex(row, wrap);
             .foundations{
-                @include w-h(33.3%, 320px);
-                border-right-style: solid;
-                border-width: 2px;
-                border-color: $txt-color;
+                @include w-h(33.3%, 420px);
+                border: 1px solid #B9D5E6;
+                @media (max-width: 1140px) {
+                    width: 50%;
+                }
+                @media (max-width: 800px) {
+                    width: 100%;
+                    height: auto;
+                }
                 .titlefound{
                     height: 100px;
                     display: flex;
@@ -711,6 +790,7 @@ main{
                     color: $txt-color;
                     justify-content: center;
                     align-items: center;
+                    text-align: center;
                     border-bottom-style: solid;
                     border-width: 2px;
                     border-color: $txt-color;
@@ -736,7 +816,10 @@ main{
                     li{
                         list-style-type: disc;
                         margin-left: 20px;
-                    }   
+                    }
+                    @media (max-width: 550px) {
+                        font-weight: 400;
+                    }
                 }
             }
         }
@@ -844,7 +927,6 @@ main{
                 height: 50px;
                 box-sizing: border-box;
                 background-color: #e9dbdb;
-                border: 2px solid #D4D3D34D;
                 resize: none;
                 cursor: pointer;
             }

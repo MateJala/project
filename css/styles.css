@@ -753,12 +753,26 @@ main .sec1aboutus {
   border-width: 2px;
   border-color: #B9D5E6;
 }
+@media (max-width: 1130px) {
+  main .sec1aboutus {
+    height: auto;
+    flex-direction: column;
+  }
+}
 main .sec1aboutus .introuduction {
   border-right-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
   width: 47%;
   height: 100%;
+}
+@media (max-width: 1130px) {
+  main .sec1aboutus .introuduction {
+    height: auto;
+    width: 100%;
+    border-right-style: none;
+    border-bottom-style: solid;
+  }
 }
 main .sec1aboutus .introuduction .titleintro {
   display: flex;
@@ -780,6 +794,12 @@ main .sec1aboutus .introuduction .titleintro {
 main .sec1aboutus .introuduction .titleintro:hover {
   font-size: 30px;
 }
+@media (max-width: 1130px) {
+  main .sec1aboutus .introuduction .titleintro {
+    justify-content: center;
+    padding: 30px;
+  }
+}
 main .sec1aboutus .introuduction .textintro {
   display: flex;
   width: 90%;
@@ -796,9 +816,26 @@ main .sec1aboutus .introuduction .textintro {
 main .sec1aboutus .introuduction .textintro li {
   list-style-type: disc;
 }
+@media (max-width: 1130px) {
+  main .sec1aboutus .introuduction .textintro {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 550px) {
+  main .sec1aboutus .introuduction .textintro {
+    font-weight: 400;
+  }
+}
 main .sec1aboutus .goals {
   width: 53%;
   height: 100%;
+}
+@media (max-width: 1130px) {
+  main .sec1aboutus .goals {
+    height: auto;
+    width: 100%;
+  }
 }
 main .sec1aboutus .goals .titlegoal {
   display: flex;
@@ -820,6 +857,12 @@ main .sec1aboutus .goals .titlegoal {
 main .sec1aboutus .goals .titlegoal:hover {
   font-size: 30px;
 }
+@media (max-width: 1130px) {
+  main .sec1aboutus .goals .titlegoal {
+    justify-content: center;
+    padding: 30px;
+  }
+}
 main .sec1aboutus .goals .textgoal {
   display: flex;
   width: 90%;
@@ -836,6 +879,17 @@ main .sec1aboutus .goals .textgoal {
 main .sec1aboutus .goals .textgoal li {
   list-style-type: disc;
 }
+@media (max-width: 1130px) {
+  main .sec1aboutus .goals .textgoal {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 550px) {
+  main .sec1aboutus .goals .textgoal {
+    font-weight: 400;
+  }
+}
 main .sec2aboutus {
   height: 320px;
   display: flex;
@@ -843,12 +897,26 @@ main .sec2aboutus {
   border-width: 2px;
   border-color: #B9D5E6;
 }
+@media (max-width: 1130px) {
+  main .sec2aboutus {
+    height: auto;
+    flex-direction: column;
+  }
+}
 main .sec2aboutus .values {
   border-right-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
   width: 61%;
   height: 100%;
+}
+@media (max-width: 1130px) {
+  main .sec2aboutus .values {
+    height: auto;
+    width: 100%;
+    border-right-style: none;
+    border-bottom-style: solid;
+  }
 }
 main .sec2aboutus .values .titlevalue {
   display: flex;
@@ -870,6 +938,12 @@ main .sec2aboutus .values .titlevalue {
 main .sec2aboutus .values .titlevalue:hover {
   font-size: 30px;
 }
+@media (max-width: 1130px) {
+  main .sec2aboutus .values .titlevalue {
+    justify-content: center;
+    padding: 30px;
+  }
+}
 main .sec2aboutus .values .textvalue {
   display: flex;
   width: 90%;
@@ -886,9 +960,28 @@ main .sec2aboutus .values .textvalue {
 main .sec2aboutus .values .textvalue li {
   list-style-type: disc;
 }
+@media (max-width: 1130px) {
+  main .sec2aboutus .values .textvalue {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 550px) {
+  main .sec2aboutus .values .textvalue {
+    font-weight: 400;
+  }
+}
 main .sec2aboutus .team {
   width: 39%;
   height: 100%;
+}
+@media (max-width: 1130px) {
+  main .sec2aboutus .team {
+    height: auto;
+    width: 100%;
+    border-right-style: none;
+    border-bottom-style: solid;
+  }
 }
 main .sec2aboutus .team .titleteam {
   display: flex;
@@ -910,6 +1003,12 @@ main .sec2aboutus .team .titleteam {
 main .sec2aboutus .team .titleteam:hover {
   font-size: 30px;
 }
+@media (max-width: 1130px) {
+  main .sec2aboutus .team .titleteam {
+    justify-content: center;
+    padding: 30px;
+  }
+}
 main .sec2aboutus .team .textteam {
   display: flex;
   width: 74%;
@@ -925,6 +1024,17 @@ main .sec2aboutus .team .textteam {
 }
 main .sec2aboutus .team .textteam li {
   list-style-type: disc;
+}
+@media (max-width: 1130px) {
+  main .sec2aboutus .team .textteam {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 550px) {
+  main .sec2aboutus .team .textteam {
+    font-weight: 400;
+  }
 }
 main .sec3aboutus {
   width: 100%;
@@ -959,10 +1069,19 @@ main .sec3aboutus .container {
 }
 main .sec3aboutus .container .foundations {
   width: 33.3%;
-  height: 320px;
-  border-right-style: solid;
-  border-width: 2px;
-  border-color: #B9D5E6;
+  height: 420px;
+  border: 1px solid #B9D5E6;
+}
+@media (max-width: 1140px) {
+  main .sec3aboutus .container .foundations {
+    width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  main .sec3aboutus .container .foundations {
+    width: 100%;
+    height: auto;
+  }
 }
 main .sec3aboutus .container .foundations .titlefound {
   height: 100px;
@@ -975,6 +1094,7 @@ main .sec3aboutus .container .foundations .titlefound {
   color: #B9D5E6;
   justify-content: center;
   align-items: center;
+  text-align: center;
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
@@ -1001,6 +1121,11 @@ main .sec3aboutus .container .foundations .textfound {
 main .sec3aboutus .container .foundations .textfound li {
   list-style-type: disc;
   margin-left: 20px;
+}
+@media (max-width: 550px) {
+  main .sec3aboutus .container .foundations .textfound {
+    font-weight: 400;
+  }
 }
 main .sec1services {
   display: flex;
@@ -1108,7 +1233,6 @@ main .sec2services .subscribe .sumbit {
   height: 50px;
   box-sizing: border-box;
   background-color: #e9dbdb;
-  border: 2px solid rgba(212, 211, 211, 0.3019607843);
   resize: none;
   cursor: pointer;
 }
