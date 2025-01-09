@@ -827,13 +827,20 @@ main{
 
     .sec1services{
         display: flex;
-        border-bottom-style: solid;
-        border-width: 2px;
+        border-bottom: 2px solid;
         border-color: $txt-color;
+        @media (max-width: 1130px) {
+            flex-direction: column;
+        }
         .serv{
             @include w-h(50%, 540px);
             display: flex;
             flex-direction: column;
+            border: 1px solid;
+            border-color: $txt-color;
+            @media (max-width: 1130px) {
+                @include w-h(100%, auto);
+            }
             .titleserv{
                 height: 20%;
                 display: flex;
@@ -850,6 +857,9 @@ main{
                 transition-timing-function: ease;
                 &:hover{
                     font-size: 30px
+                }
+                @media (max-width: 1130px) {
+                   padding: 30px;
                 }
             }
             .textserv{
@@ -868,6 +878,13 @@ main{
                 li{
                     list-style-type: disc;
                 }
+                @media (max-width: 1130px) {
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+                @media (max-width: 550px) {
+                    font-weight: 400;
+                }
             }
         }
     }
@@ -882,6 +899,7 @@ main{
             color: $txt-color;
             justify-content: center;
             align-items: center;
+            text-align: center;
             border-bottom-style: solid;
             border-width: 2px;
             border-color: $txt-color;
@@ -897,6 +915,7 @@ main{
             border-width: 2px;
             border-color: $txt-color;
             padding: 50px;
+            width: 100%;
             .subtitleserv{
                 padding-top: 30px;
                 padding-bottom: 30px;
@@ -906,7 +925,13 @@ main{
                 font-size: 24px;
                 font-weight: 600;
                 color: $txt-color;
-                text-align: center;    
+                text-align: center;
+                @media (max-width: 900px) {
+                    width: 80%;
+                }
+                @media (max-width: 550px) {
+                    font-weight: 400;
+                }
             }   
             .box{
                 margin-top: 30px;
@@ -918,6 +943,12 @@ main{
                 border: 2px solid #D4D3D34D;
                 background-color: #e9dbdb;
                 resize: none;
+                @media (max-width: 900px) {
+                    width: 600px;
+                }
+                @media (max-width: 700px) {
+                    width: 400px;
+                }
             }
             .sumbit{
                 margin-top: 30px;
@@ -927,8 +958,18 @@ main{
                 height: 50px;
                 box-sizing: border-box;
                 background-color: #e9dbdb;
+                border: none;
                 resize: none;
                 cursor: pointer;
+                &:hover{
+                    border: 2px solid black;
+                }
+                @media (max-width: 900px) {
+                    width: 600px;
+                }
+                @media (max-width: 700px) {
+                    width: 400px;
+                }  
             }
         }
     }
@@ -1125,10 +1166,13 @@ main{
                 width: 1000px;
                 height: 50px;
                 box-sizing: border-box;
-                border: 2px solid #D4D3D34D;
+                border: none;
                 background-color: #e9dbdb;
                 resize: none;
                 cursor: pointer;
+                &:hover{
+                    border: 2px solid black;
+                }
             }
             .txtbellow{
                 display: flex;

@@ -1129,15 +1129,27 @@ main .sec3aboutus .container .foundations .textfound li {
 }
 main .sec1services {
   display: flex;
-  border-bottom-style: solid;
-  border-width: 2px;
+  border-bottom: 2px solid;
   border-color: #B9D5E6;
+}
+@media (max-width: 1130px) {
+  main .sec1services {
+    flex-direction: column;
+  }
 }
 main .sec1services .serv {
   width: 50%;
   height: 540px;
   display: flex;
   flex-direction: column;
+  border: 1px solid;
+  border-color: #B9D5E6;
+}
+@media (max-width: 1130px) {
+  main .sec1services .serv {
+    width: 100%;
+    height: auto;
+  }
 }
 main .sec1services .serv .titleserv {
   height: 20%;
@@ -1157,6 +1169,11 @@ main .sec1services .serv .titleserv {
 main .sec1services .serv .titleserv:hover {
   font-size: 30px;
 }
+@media (max-width: 1130px) {
+  main .sec1services .serv .titleserv {
+    padding: 30px;
+  }
+}
 main .sec1services .serv .textserv {
   display: flex;
   width: 90%;
@@ -1174,6 +1191,17 @@ main .sec1services .serv .textserv {
 main .sec1services .serv .textserv li {
   list-style-type: disc;
 }
+@media (max-width: 1130px) {
+  main .sec1services .serv .textserv {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 550px) {
+  main .sec1services .serv .textserv {
+    font-weight: 400;
+  }
+}
 main .sec2services .servicestitle {
   height: 150px;
   display: flex;
@@ -1183,6 +1211,7 @@ main .sec2services .servicestitle {
   color: #B9D5E6;
   justify-content: center;
   align-items: center;
+  text-align: center;
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
@@ -1202,6 +1231,7 @@ main .sec2services .subscribe {
   border-width: 2px;
   border-color: #B9D5E6;
   padding: 50px;
+  width: 100%;
 }
 main .sec2services .subscribe .subtitleserv {
   padding-top: 30px;
@@ -1214,6 +1244,16 @@ main .sec2services .subscribe .subtitleserv {
   color: #B9D5E6;
   text-align: center;
 }
+@media (max-width: 900px) {
+  main .sec2services .subscribe .subtitleserv {
+    width: 80%;
+  }
+}
+@media (max-width: 550px) {
+  main .sec2services .subscribe .subtitleserv {
+    font-weight: 400;
+  }
+}
 main .sec2services .subscribe .box {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1225,6 +1265,16 @@ main .sec2services .subscribe .box {
   background-color: #e9dbdb;
   resize: none;
 }
+@media (max-width: 900px) {
+  main .sec2services .subscribe .box {
+    width: 600px;
+  }
+}
+@media (max-width: 700px) {
+  main .sec2services .subscribe .box {
+    width: 400px;
+  }
+}
 main .sec2services .subscribe .sumbit {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1233,8 +1283,22 @@ main .sec2services .subscribe .sumbit {
   height: 50px;
   box-sizing: border-box;
   background-color: #e9dbdb;
+  border: none;
   resize: none;
   cursor: pointer;
+}
+main .sec2services .subscribe .sumbit:hover {
+  border: 2px solid black;
+}
+@media (max-width: 900px) {
+  main .sec2services .subscribe .sumbit {
+    width: 600px;
+  }
+}
+@media (max-width: 700px) {
+  main .sec2services .subscribe .sumbit {
+    width: 400px;
+  }
 }
 main .bigtitle {
   width: 100%;
@@ -1444,10 +1508,13 @@ main .sec1contact .contact .sumbit1 {
   width: 1000px;
   height: 50px;
   box-sizing: border-box;
-  border: 2px solid rgba(212, 211, 211, 0.3019607843);
+  border: none;
   background-color: #e9dbdb;
   resize: none;
   cursor: pointer;
+}
+main .sec1contact .contact .sumbit1:hover {
+  border: 2px solid black;
 }
 main .sec1contact .contact .txtbellow {
   display: flex;
