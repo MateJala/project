@@ -30,6 +30,11 @@ nav{
             line-height: 120%;
             font-weight: 700;
             color: $txt-color;
+            transition: 0.5s;
+            transition-timing-function: ease;
+            &:hover{
+                font-size: 68px
+            }
         }
     }
     .nav{
@@ -39,6 +44,11 @@ nav{
         div{
             font-family: "Ropa Sans" serif;
             font-size: 30px;
+            transition: 0.5s;
+            transition-timing-function: ease;
+            &:hover{
+                font-size: 40px
+            }
             a{
                 color: $txt-color;
             }
@@ -78,6 +88,11 @@ footer{
             color: $txt-color;
             text-align: center;
             justify-content: center;
+            transition: 0.5s;
+            transition-timing-function: ease;
+            &:hover{
+                font-size: 40px
+            }
         }
         .footer-txt{
             padding-top: 20px;
@@ -129,6 +144,11 @@ main{
             line-height: 120%;
             font-weight: 600;
             color: $txt-color;
+            transition: 0.5s;
+            transition-timing-function: ease;
+            &:hover{
+                font-size: 30px
+            }
         }
     }
     .sec1{
@@ -149,6 +169,11 @@ main{
                 border-bottom-style: solid;
                 border-width: 2px;
                 border-color: $txt-color;
+                transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 30px
+                }
             }
             .text1{
                 @include w-h(100%, 380px);
@@ -195,6 +220,11 @@ main{
                 color: $txt-color;
                 justify-content: center;
                 border: none;
+                transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 56px
+                }
             }
             .text2{
                 @include w-h(87%, 519px);
@@ -231,6 +261,11 @@ main{
                 border-bottom-style: solid;
                 border-width: 2px;
                 border-color: $txt-color;
+                transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 40px
+                }
             }
             .text3{
                 @include w-h(100%, 386px);
@@ -302,6 +337,11 @@ main{
                 border-bottom-style: solid;
                 border-width: 2px;
                 border-color: $txt-color;
+                transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 30px
+                }
             }
             .textintro{
                 display: flex;
@@ -336,6 +376,11 @@ main{
                 border-bottom-style: solid;
                 border-width: 2px;
                 border-color: $txt-color;
+                transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 30px
+                }
             }
             .textgoal{
                 display: flex;
@@ -381,6 +426,11 @@ main{
                 border-bottom-style: solid;
                 border-width: 2px;
                 border-color: $txt-color;
+                transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 30px
+                }
             }
             .textvalue{
                 display: flex;
@@ -415,6 +465,11 @@ main{
                 border-bottom-style: solid;
                 border-width: 2px;
                 border-color: $txt-color;
+                transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 30px
+                }
             }
             .textteam{
                 display: flex;
@@ -452,6 +507,11 @@ main{
                 border-bottom-style: solid;
                 border-width: 2px;
                 border-color: $txt-color;
+                transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 56px
+                }
         }
         .container{
             @include go-flex(row, wrap);
@@ -474,6 +534,11 @@ main{
                     border-bottom-style: solid;
                     border-width: 2px;
                     border-color: $txt-color;
+                    transition: 0.5s;
+                    transition-timing-function: ease;
+                    &:hover{
+                        font-size: 30px
+                    }
                 }
                 .textfound{
                     display: flex;
@@ -518,6 +583,11 @@ main{
                 border-bottom-style: solid;
                 border-width: 2px;
                 border-color: $txt-color;
+                transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 30px
+                }
             }
             .textserv{
                 display: flex;
@@ -552,6 +622,11 @@ main{
             border-bottom-style: solid;
             border-width: 2px;
             border-color: $txt-color;
+            transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 56px
+                }
         }
         .subscribe{
             @include go-flex(column);
@@ -588,9 +663,10 @@ main{
                 width: 740px;
                 height: 50px;
                 box-sizing: border-box;
-                border: 2px solid #D4D3D34D;
                 background-color: #e9dbdb;
+                border: 2px solid #D4D3D34D;
                 resize: none;
+                cursor: pointer;
             }
         }
     }
@@ -607,6 +683,11 @@ main{
         font-size: 72px;
         font-weight: 700;
         color: $txt-color;
+        transition: 0.5s;
+        transition-timing-function: ease;
+        &:hover{
+            font-size: 82px
+        }
     }
     .secnews{
         @include go-flex();
@@ -631,6 +712,11 @@ main{
                 font-size: 48px;
                 font-weight: 700;
                 color: $txt-color;
+                transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 56px
+                }
             }
             .subtitle{
                 display: flex;
@@ -641,6 +727,11 @@ main{
                 font-size: 24px;
                 font-weight: 700;
                 color: $txt-color;
+                transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 30px
+                }
             }
             .subtxt{
                 display: flex;
@@ -671,6 +762,11 @@ main{
             font-size: 48px;
             font-weight: 700;
             color: $txt-color;
+            transition: 0.5s;
+            transition-timing-function: ease;
+            &:hover{
+                font-size: 56px
+            }
         }
         .events{
             @include go-flex();
@@ -682,6 +778,12 @@ main{
                 background-color: #D9D9D9;
                 border-radius: 20%;
                 height: 500px;
+                transition: 1s;
+                transition-timing-function: ease;
+                &:hover{
+                    width: 30%;
+                    height: 600px;
+                }
                 .titleofnews{
                     display: flex;
                     justify-content: center;
@@ -725,7 +827,12 @@ main{
                 font-size: 48px;
                 font-weight: 600;
                 color: $txt-color;
-                text-align: center;    
+                text-align: center;
+                transition: 0.5s;
+                transition-timing-function: ease;
+                &:hover{
+                    font-size: 56px
+                }    
             }   
             .box1{
                 margin-top: 30px;
@@ -759,6 +866,7 @@ main{
                 border: 2px solid #D4D3D34D;
                 background-color: #e9dbdb;
                 resize: none;
+                cursor: pointer;
             }
             .txtbellow{
                 display: flex;
@@ -789,6 +897,11 @@ main{
             text-align: center;
             justify-content: center;
             align-items: center;
+            transition: 0.5s;
+            transition-timing-function: ease;
+            &:hover{
+                font-size: 56px
+            }
         }
         .faqtxt{
             display: flex;

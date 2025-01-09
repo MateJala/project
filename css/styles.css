@@ -166,6 +166,11 @@ nav .title p {
   line-height: 120%;
   font-weight: 700;
   color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+nav .title p:hover {
+  font-size: 68px;
 }
 nav .nav {
   padding-top: 35px;
@@ -180,6 +185,11 @@ nav .nav {
 nav .nav div {
   font-family: "Ropa Sans" serif;
   font-size: 30px;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+nav .nav div:hover {
+  font-size: 40px;
 }
 nav .nav div a {
   color: #B9D5E6;
@@ -222,6 +232,11 @@ footer .campaign .footer-title {
   color: #B9D5E6;
   text-align: center;
   justify-content: center;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+footer .campaign .footer-title:hover {
+  font-size: 40px;
 }
 footer .campaign .footer-txt {
   padding-top: 20px;
@@ -273,6 +288,11 @@ main .slogan p {
   line-height: 120%;
   font-weight: 600;
   color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .slogan p:hover {
+  font-size: 30px;
 }
 main .sec1 {
   height: 480px;
@@ -299,6 +319,11 @@ main .sec1 div .title1 {
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec1 div .title1:hover {
+  font-size: 30px;
 }
 main .sec1 div .text1 {
   width: 100%;
@@ -353,6 +378,11 @@ main .sec2 div .title2 {
   color: #B9D5E6;
   justify-content: center;
   border: none;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec2 div .title2:hover {
+  font-size: 56px;
 }
 main .sec2 div .text2 {
   width: 87%;
@@ -395,6 +425,11 @@ main .sec3 div .title3 {
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec3 div .title3:hover {
+  font-size: 40px;
 }
 main .sec3 div .text3 {
   width: 100%;
@@ -469,6 +504,11 @@ main .sec1aboutus .introuduction .titleintro {
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec1aboutus .introuduction .titleintro:hover {
+  font-size: 30px;
 }
 main .sec1aboutus .introuduction .textintro {
   display: flex;
@@ -504,6 +544,11 @@ main .sec1aboutus .goals .titlegoal {
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec1aboutus .goals .titlegoal:hover {
+  font-size: 30px;
 }
 main .sec1aboutus .goals .textgoal {
   display: flex;
@@ -549,6 +594,11 @@ main .sec2aboutus .values .titlevalue {
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec2aboutus .values .titlevalue:hover {
+  font-size: 30px;
 }
 main .sec2aboutus .values .textvalue {
   display: flex;
@@ -584,6 +634,11 @@ main .sec2aboutus .team .titleteam {
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec2aboutus .team .titleteam:hover {
+  font-size: 30px;
 }
 main .sec2aboutus .team .textteam {
   display: flex;
@@ -619,6 +674,11 @@ main .sec3aboutus .title3aboutus {
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec3aboutus .title3aboutus:hover {
+  font-size: 56px;
 }
 main .sec3aboutus .container {
   display: flex;
@@ -648,6 +708,11 @@ main .sec3aboutus .container .foundations .titlefound {
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec3aboutus .container .foundations .titlefound:hover {
+  font-size: 30px;
 }
 main .sec3aboutus .container .foundations .textfound {
   display: flex;
@@ -691,6 +756,11 @@ main .sec1services .serv .titleserv {
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec1services .serv .titleserv:hover {
+  font-size: 30px;
 }
 main .sec1services .serv .textserv {
   display: flex;
@@ -721,6 +791,11 @@ main .sec2services .servicestitle {
   border-bottom-style: solid;
   border-width: 2px;
   border-color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec2services .servicestitle:hover {
+  font-size: 56px;
 }
 main .sec2services .subscribe {
   display: flex;
@@ -762,9 +837,10 @@ main .sec2services .subscribe .sumbit {
   width: 740px;
   height: 50px;
   box-sizing: border-box;
-  border: 2px solid rgba(212, 211, 211, 0.3019607843);
   background-color: #e9dbdb;
+  border: 2px solid rgba(212, 211, 211, 0.3019607843);
   resize: none;
+  cursor: pointer;
 }
 main .bigtitle {
   width: 100%;
@@ -779,6 +855,11 @@ main .bigtitle {
   font-size: 72px;
   font-weight: 700;
   color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .bigtitle:hover {
+  font-size: 82px;
 }
 main .secnews {
   display: flex;
@@ -809,6 +890,11 @@ main .secnews .newsbox .header {
   font-size: 48px;
   font-weight: 700;
   color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .secnews .newsbox .header:hover {
+  font-size: 56px;
 }
 main .secnews .newsbox .subtitle {
   display: flex;
@@ -819,6 +905,11 @@ main .secnews .newsbox .subtitle {
   font-size: 24px;
   font-weight: 700;
   color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .secnews .newsbox .subtitle:hover {
+  font-size: 30px;
 }
 main .secnews .newsbox .subtxt {
   display: flex;
@@ -848,6 +939,11 @@ main .sec2news .titlenews {
   font-size: 48px;
   font-weight: 700;
   color: #B9D5E6;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec2news .titlenews:hover {
+  font-size: 56px;
 }
 main .sec2news .events {
   display: flex;
@@ -868,6 +964,12 @@ main .sec2news .events .boxofnews {
   background-color: #D9D9D9;
   border-radius: 20%;
   height: 500px;
+  transition: 1s;
+  transition-timing-function: ease;
+}
+main .sec2news .events .boxofnews:hover {
+  width: 30%;
+  height: 600px;
 }
 main .sec2news .events .boxofnews .titleofnews {
   display: flex;
@@ -913,6 +1015,11 @@ main .sec1contact .contact .subtitlecontact {
   font-weight: 600;
   color: #B9D5E6;
   text-align: center;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec1contact .contact .subtitlecontact:hover {
+  font-size: 56px;
 }
 main .sec1contact .contact .box1 {
   margin-top: 30px;
@@ -946,6 +1053,7 @@ main .sec1contact .contact .sumbit1 {
   border: 2px solid rgba(212, 211, 211, 0.3019607843);
   background-color: #e9dbdb;
   resize: none;
+  cursor: pointer;
 }
 main .sec1contact .contact .txtbellow {
   display: flex;
@@ -979,6 +1087,11 @@ main .sec2contact .faqtitle {
   text-align: center;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+main .sec2contact .faqtitle:hover {
+  font-size: 56px;
 }
 main .sec2contact .faqtxt {
   display: flex;
