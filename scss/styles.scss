@@ -30,7 +30,7 @@ nav{
         justify-content: center;
         align-items: center;
         p{  
-            font-family: "Inter" serif;
+            font-family: Inter, serif;
             font-size: 48px;
             line-height: 120%;
             font-weight: 700;
@@ -71,7 +71,7 @@ nav{
             width: 0;
         }
         div{
-            font-family: "Ropa Sans" serif;
+            font-family: Ropa Sans, serif;
             font-size: 30px;
             transition: 0.5s;
             transition-timing-function: ease;
@@ -147,7 +147,7 @@ footer{
             p{ 
                 padding-left: 8px;
                 padding-right: 16px;
-                font-family: "Roboto" serif;
+                font-family: Roboto, serif;
                 font-size: 20px;
                 font-weight: 600;
                 color: $txt-color;
@@ -168,7 +168,7 @@ footer{
             display: none;
         }
         .footer-title{
-            font-family: "RocknRoll One" serif;
+            font-family: RocknRoll One, serif;
             font-size: 30px;
             font-weight: 600;
             color: $txt-color;
@@ -191,7 +191,7 @@ footer{
             }
             div{
                 width: 40%;
-                font-family: "Roboto" serif;
+                font-family: Roboto, serif;
                 font-size: 20px;
                 font-weight: 600;
                 line-height: 40px;
@@ -206,7 +206,7 @@ footer{
         }    
     }
     .copyright{
-        font-family: "Roboto" serif;
+        font-family: Roboto, serif;
         font-size: 20px;
         font-weight: 600;
         color: $txt-color;
@@ -229,7 +229,7 @@ main{
         div{
             padding-top: 65px;
             text-align: center;
-            font-family: "Inter" serif;
+            font-family: Inter, serif;
             font-size: 72px;
             line-height: 120%;
             font-weight: 700;
@@ -245,7 +245,7 @@ main{
         p{
             padding-top: 18px;
             text-align: center;
-            font-family: "Inter" serif;
+            font-family: Inter, serif;
             font-size: 24px;
             line-height: 120%;
             font-weight: 600;
@@ -277,7 +277,7 @@ main{
             border-color: $txt-color;
             .title1{
                 @include w-h(100%, 100px);
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 24px;
                 font-weight: 600;
                 color: $txt-color;
@@ -294,7 +294,7 @@ main{
             }
             .text1{
                 @include w-h(100%, 380px);
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 20px;
                 font-weight: 600;
                 color: $txt-color;
@@ -350,7 +350,7 @@ main{
             .title2{
                 @include w-h(100%, 81px);
                 padding-top: 40px;
-                font-family: "Inter" serif;
+                font-family: Inter, serif;
                 font-size: 48px;
                 font-weight: 700;
                 color: $txt-color;
@@ -365,7 +365,7 @@ main{
             .text2{
                 @include w-h(87%, 519px);
                 padding-top: 35px;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 20px;
                 font-weight: 600;
                 color: $txt-color;
@@ -401,7 +401,7 @@ main{
             border-color: $txt-color;
             .title3{
                 @include w-h(100%, 127px);
-                font-family: "Inter" serif;
+                font-family: Inter, serif;
                 font-size: 32px;
                 font-weight: 600;
                 color: $txt-color;
@@ -423,7 +423,7 @@ main{
             }
             .text3{
                 @include w-h(100%, 386px);
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 20px;
                 font-weight: 600;
                 color: $txt-color;
@@ -466,7 +466,7 @@ main{
             div{
                 @include w-h(100%, 25%);
                 display: flex;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 20px;
                 font-weight: 600;
                 color: $txt-color;
@@ -518,7 +518,7 @@ main{
                 padding-bottom: 30px;
                 height: 25%;
                 padding-left: 5%;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 24px;
                 font-weight: 600;
                 color: $txt-color;
@@ -542,7 +542,7 @@ main{
                 width: 90%;
                 padding-left: 5%;
                 padding-top: 5%;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 20px;
                 font-weight: 600;
                 line-height: 40px;
@@ -572,7 +572,7 @@ main{
                 padding-bottom: 30px;
                 height: 25%;
                 padding-left: 5%;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 24px;
                 font-weight: 600;
                 color: $txt-color;
@@ -596,7 +596,7 @@ main{
                 width: 90%;
                 padding-left: 5%;
                 padding-top: 5%;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 20px;
                 font-weight: 600;
                 line-height: 40px;
@@ -643,7 +643,7 @@ main{
                 padding-bottom: 30px;
                 height: 22%;
                 padding-left: 5%;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 24px;
                 font-weight: 600;
                 color: $txt-color;
@@ -667,7 +667,7 @@ main{
                 width: 90%;
                 padding-left: 5%;
                 padding-top: 5%;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 20px;
                 font-weight: 600;
                 line-height: 40px;
@@ -699,7 +699,7 @@ main{
                 padding-bottom: 30px;
                 height: 22%;
                 padding-left: 5%;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 24px;
                 font-weight: 600;
                 color: $txt-color;
@@ -723,7 +723,7 @@ main{
                 width: 74%;
                 padding-left: 5%;
                 padding-top: 5%;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 20px;
                 font-weight: 600;
                 line-height: 40px;
@@ -784,7 +784,7 @@ main{
                     display: flex;
                     padding-bottom: 15px;
                     padding-top: 15px;
-                    font-family: "RocknRoll One" serif;
+                    font-family: RocknRoll One, serif;
                     font-size: 24px;
                     font-weight: 600;
                     color: $txt-color;
@@ -806,7 +806,7 @@ main{
                     width: 80%;
                     padding-left: 10%;
                     padding-top: 5%;
-                    font-family: "RocknRoll One" serif;
+                    font-family: RocknRoll One, serif;
                     font-size: 20px;
                     font-weight: 600;
                     line-height: 40px;
@@ -844,7 +844,7 @@ main{
             .titleserv{
                 height: 20%;
                 display: flex;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 24px;
                 font-weight: 600;
                 color: $txt-color;
@@ -867,7 +867,7 @@ main{
                 width: 90%;
                 padding-left: 15%;
                 height: 80%;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 20px;
                 font-weight: 600;
                 line-height: 40px;
@@ -893,7 +893,7 @@ main{
         .servicestitle{
             height: 150px;
             display: flex;
-            font-family: "Inter" serif;
+            font-family: Inter, serif;
             font-size: 48px;
             font-weight: 600;
             color: $txt-color;
@@ -921,7 +921,7 @@ main{
                 padding-bottom: 30px;
                 display: flex;
                 width: 740px;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 24px;
                 font-weight: 600;
                 color: $txt-color;
@@ -983,7 +983,7 @@ main{
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-family: "Inter" serif;
+        font-family: Inter, serif;
         font-size: 72px;
         font-weight: 700;
         color: $txt-color;
@@ -1025,7 +1025,7 @@ main{
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                font-family: "Inter" serif;
+                font-family: Inter,serif;
                 font-size: 48px;
                 font-weight: 700;
                 color: $txt-color;
@@ -1045,7 +1045,7 @@ main{
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 24px;
                 font-weight: 700;
                 color: $txt-color;
@@ -1059,7 +1059,7 @@ main{
                 display: flex;
                 width: 80%;
                 padding-left: 12.5%;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 20px;
                 font-weight: 600;
                 line-height: 40px;
@@ -1083,7 +1083,7 @@ main{
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: "Inter" serif;
+            font-family: Inter, serif;
             font-size: 48px;
             font-weight: 700;
             color: $txt-color;
@@ -1135,7 +1135,7 @@ main{
                     justify-content: center;
                     align-items: center;
                     text-align: center;
-                    font-family: "RocknRoll One" serif;
+                    font-family: RocknRoll One, serif;
                     font-size: 24px;
                     font-weight: 700;
                     color: $bg-color;
@@ -1144,7 +1144,7 @@ main{
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    font-family: "RocknRoll One" serif;
+                    font-family: RocknRoll One, serif;
                     font-size: 20px;
                     font-weight: 600;
                     width: 80%;
@@ -1173,7 +1173,7 @@ main{
                 padding-top: 30px;
                 padding-bottom: 30px;
                 display: flex;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 48px;
                 font-weight: 600;
                 color: $txt-color;
@@ -1245,7 +1245,7 @@ main{
                 justify-content: center;
                 width: 80%;
                 align-items: center;
-                font-family: "RocknRoll One" serif;
+                font-family: RocknRoll One, serif;
                 font-size: 24px;
                 font-weight: 600;
                 color: $txt-color;
@@ -1280,7 +1280,7 @@ main{
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: "RocknRoll One" serif;
+            font-family: RocknRoll One, serif;
             font-size: 24px;
             font-weight: 600;
             line-height: 40px;
